@@ -1,5 +1,4 @@
 <template>
-<meta name="viewport" content="width=device-width, user-scalable=no">
 <div id="app">
   <div id="menu">
     <div id="main">
@@ -62,7 +61,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 10pt;
+  font-size: 8pt;
   font-decoration: none;
 }
 
