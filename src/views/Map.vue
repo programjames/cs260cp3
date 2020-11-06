@@ -28,7 +28,7 @@ export default {
   border: none;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1200px) {
   #mapFrame {
     height: 750px;
   }

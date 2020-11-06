@@ -111,7 +111,7 @@ button {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1200px) {
   .houses {
     flex-direction: row;
     flex-wrap: wrap;

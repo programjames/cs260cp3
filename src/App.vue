@@ -1,4 +1,5 @@
 <template>
+<meta name="viewport" content="width=device-width, user-scalable=no">
 <div id="app">
   <div id="menu">
     <div id="main">
@@ -79,7 +80,7 @@ a:hover {
   color: inherit;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1200px) {
   .menu-item {
     font-size: 32pt;
     margin-left: 50px;

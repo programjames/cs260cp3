@@ -79,7 +79,7 @@ export default {
   padding-right: 5px;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1200px) {
   form {
     height: 75px;
     font-size: 28pt;
