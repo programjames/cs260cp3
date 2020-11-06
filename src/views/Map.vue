@@ -7,19 +7,13 @@ export default {
   name: 'Map',
   computed: {
     src() {
-      alert('https://maps.google.com/maps?q=' + this.latitude + ',' + this.longitude + '&hl=es;z=14output=embed');
-      return 'https://maps.google.com/maps?q=' + this.latitude + ',' + this.longitude + '&hl=es;z=14&amp;output=embed';
+      return 'https://maps.google.com/maps?q=' + this.latitude + ',' + this.longitude + '&hl=eng&z=14&output=embed';
     },
     latitude() {
       return this.$root.$data.houses[this.$root.$data.mapID - 1].latitude;
     },
     longitude() {
       return this.$root.$data.houses[this.$root.$data.mapID - 1].longitude;
-    }
-  },
-  watch: {
-    src() {
-      document.getElementById('mapFrame').contentWindow.location.reload();
     }
   }
 }
@@ -30,7 +24,13 @@ export default {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 750px;
+  height: 400px;
   border: none;
+}
+
+@media only screen and (min-width: 500px) {
+  #mapFrame {
+    height: 750px;
+  }
 }
 </style>
